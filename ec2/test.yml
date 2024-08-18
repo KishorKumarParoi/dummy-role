@@ -1,0 +1,24 @@
+# yml in nustshell
+name : "Kishor Kumar Paroi"
+age : 25
+server : 
+ name : "codewithkishor"
+ capacity : 50GB
+social_media : 
+ - insta
+ - linkedin
+ - X
+ - facebook
+misc : | 
+  this 
+  is
+  multiline 
+  string
+list_of_servers :
+  - server_1 :
+    name : "ec2"
+    volume : 8gb
+  - server_2 :
+    name : "fargate"
+    volume : 5gb
+
